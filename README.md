@@ -14,10 +14,12 @@ The procedure makes use of several variables to store different types of informa
 The procedure uses several auxiliary functions to perform specific calculations, such as:
 
 **'ELEMENT_ATOMIC_WEIGHT'**: Calculates the atomic weight of a given chemical element.
-\n **'MOLS'**: Calculates the number of moles based on the weight of the molecule and its total atomic weight.
-\n **'MOLECULES'**: Calculate the number of molecules based on the number of moles.
-\n **'ATOMS'**: Calculates the number of atoms of an element based on the number of molecules and the subscript of the element in the molecule.
-\n **'PROTONS'**: Calculates the number of protons based on the number of atoms of an element.
+
+**'MOLS'**: Calculates the number of moles based on the weight of the molecule and its total atomic weight.
+
+**'MOLECULES'**: Calculate the number of molecules based on the number of moles.
+**'ATOMS'**: Calculates the number of atoms of an element based on the number of molecules and the subscript of the element in the molecule.
+**'PROTONS'**: Calculates the number of protons based on the number of atoms of an element.
 **'QUARKSUP_PROTONS'**: Calculates the number of UP quarks in the protons of an element.
 **'MeV_C2_QUARKSUP_PROTONS'**, **'eV_C2_QUARKSUP_PROTONS'**, **'J_C2_QUARKSUP_PROTONS'**, **'Kg_C2_QUARKSUP_PROTONS'**, **'Kg_QUARKSUP_PROTONS'**: Convert the number of UP quarks in the protons of an element to different units of energy and mass.
 **'QUARKSDOWN_PROTONS'**: Calculates the number of DOWN quarks in the protons of an element.
