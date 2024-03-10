@@ -5,6 +5,7 @@ The **'QUARKS_MOLECULE'** procedure is a PL/SQL implementation that calculates v
 
 # Parameters
 **'p_WEIGHT'**: Weight of the molecule.
+
 **'p_MOLECULE'**: Chemical formula of the molecule.
 
 # Variables
@@ -49,6 +50,7 @@ The procedure follows the following main steps:
 3. Calculate the total atomic weight of the molecule by adding the atomic weights of each element.
 4. Calculate the number of moles and molecules based on the weight of the molecule and its total atomic weight.
 5. For each element in the molecule:
+
    __·__ Calculate the number of atoms.
 
    __·__ Calculate the number of protons and UP/DOWN quarks in the protons.
