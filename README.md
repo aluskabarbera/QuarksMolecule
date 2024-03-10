@@ -18,16 +18,27 @@ The procedure uses several auxiliary functions to perform specific calculations,
 **'MOLS'**: Calculates the number of moles based on the weight of the molecule and its total atomic weight.
 
 **'MOLECULES'**: Calculate the number of molecules based on the number of moles.
+
 **'ATOMS'**: Calculates the number of atoms of an element based on the number of molecules and the subscript of the element in the molecule.
+
 **'PROTONS'**: Calculates the number of protons based on the number of atoms of an element.
+
 **'QUARKSUP_PROTONS'**: Calculates the number of UP quarks in the protons of an element.
+
 **'MeV_C2_QUARKSUP_PROTONS'**, **'eV_C2_QUARKSUP_PROTONS'**, **'J_C2_QUARKSUP_PROTONS'**, **'Kg_C2_QUARKSUP_PROTONS'**, **'Kg_QUARKSUP_PROTONS'**: Convert the number of UP quarks in the protons of an element to different units of energy and mass.
+
 **'QUARKSDOWN_PROTONS'**: Calculates the number of DOWN quarks in the protons of an element.
+
 **'MeV_C2_QUARKSDOWN_PROTONS'**, **'eV_C2_QUARKSDOWN_PROTONS'**, **'J_C2_QUARKSDOWN_PROTONS'**, **'Kg_C2_QUARKSDOWN_PROTONS'**, **'Kg_QUARKSDOWN_PROTONS'**: Convert the number of DOWN quarks in the protons of an element to different units of energy and mass.
+
 **'NEUTRONS'**: Calculates the number of neutrons based on the number of atoms of an element.
+
 **'QUARKSUP_NEUTRONS'**: Calculates the number of UP quarks in the neutrons of an element.
+
 **'MeV_C2_QUARKSUP_NEUTRONS'**, **'eV_C2_QUARKSUP_NEUTRONS'**, **'J_C2_QUARKSUP_NEUTRONS'**, **'Kg_C2_QUARKSUP_NEUTRONS'**, **'Kg_QUARKSUP_NEUTRONS'**: Convert the number of UP quarks in the neutrons of an element to different energy and mass units.
+
 **'QUARKSDOWN_NEUTRONS'**: Calculates the number of DOWN quarks in the neutrons of an element.
+
 **'MeV_C2_QUARKSDOWN_NEUTRONS'**, **'eV_C2_QUARKSDOWN_NEUTRONS'**, **'J_C2_QUARKSDOWN_NEUTRONS'**, **'Kg_C2_QUARKSDOWN_NEUTRONS'**, **'Kg_QUARKSDOWN_NEUTRONS'**: Convert the number of DOWN quarks in the neutrons of an element to different units of energy and mass.
 
 # Procedure Logic
@@ -39,7 +50,9 @@ The procedure follows the following main steps:
 4. Calculate the number of moles and molecules based on the weight of the molecule and its total atomic weight.
 5. For each element in the molecule:
    __·__ Calculate the number of atoms.
+
    __·__ Calculate the number of protons and UP/DOWN quarks in the protons.
+
    __·__ Calculate the number of neutrons and UP/DOWN quarks in the neutrons.
 
 # Exit
@@ -49,4 +62,4 @@ The procedure prints to standard output (**'DBMS_OUTPUT.PUT_LINE'**) detailed in
 It is important to note that the procedure assumes that there is a table called **'ELEMENTS'** that contains information about the chemical elements, including their names, symbols, and other properties such as the number of protons and neutrons. Furthermore, the auxiliary functions and procedures used must be previously defined in the database.
 
 # Developer
-This procedure has been developed by [Alexei Barberà Roca] and is available for use and collaboration in [Link to GitHub Repository].
+This procedure has been developed by [Alexei Barberà Roca] and is available for use and collaboration in [https://github.com/aluskabarbera/QuarksMolecule)https://github.com/aluskabarbera/QuarksMolecule].
