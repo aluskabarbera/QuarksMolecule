@@ -1,0 +1,9 @@
+drop table "ALEXEIBARBERA1"."AMINOACIDS" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."AMINOACIDS_NITROGENOUSBASES" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."CHEMICAL_FORMULAS" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."ELEMENTS" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."ELEMENTS_CHEMICALFORMULAS" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."NITROGENOUS_BASES" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."PARTICLES" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."SUBPARTICLES" cascade constraints PURGE;
+drop table "ALEXEIBARBERA1"."SUBPARTICLES_PARTICLES" cascade constraints PURGE;
