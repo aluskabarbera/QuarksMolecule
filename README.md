@@ -1,4 +1,4 @@
-# QuarksMolecule procedure
+# QuarksMolecule procedure ⚗️
 
 # Description
 The **'QUARKS_MOLECULE'** procedure is a PL/SQL implementation that calculates various physical and chemical properties of a given molecule. It uses chemical element data stored in a table called **'ELEMENTS'**.
@@ -64,4 +64,4 @@ The procedure prints to standard output (**'DBMS_OUTPUT.PUT_LINE'**) detailed in
 It is important to note that the procedure assumes that there is a table called **'ELEMENTS'** that contains information about the chemical elements, including their names, symbols, and other properties such as the number of protons and neutrons. Furthermore, the auxiliary functions and procedures used must be previously defined in the database.
 
 # Developer
-This procedure has been developed by [Alexei Barberà Roca] and is available for use and collaboration in [https://github.com/aluskabarbera/QuarksMolecule)https://github.com/aluskabarbera/QuarksMolecule].
+🌎 This procedure has been developed by [Alexei Barberà Roca] and is available for use and collaboration in [https://github.com/aluskabarbera/QuarksMolecule)https://github.com/aluskabarbera/QuarksMolecule].
